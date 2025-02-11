@@ -1,5 +1,6 @@
 import "./App.css";
 import ParentComponent from "./components/ParentComponent";
+import PostsItems from "./components/PostItems";
 import UserForm from "./components/UserForm";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <ParentComponent />
 
       <h3>4. use para carregamento de dados</h3>
-
+      <PostsItems />
     </>
   );
 }
