@@ -1,9 +1,9 @@
 import { use, Suspense } from "react";
 
-async function fetchPosts() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-  return res.json();
-}
+// async function fetchPosts() {
+//   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+//   return res.json();
+// }
 
 const dataPromise = fetch("https://jsonplaceholder.typicode.com/posts").then(
   (res) => res.json()
