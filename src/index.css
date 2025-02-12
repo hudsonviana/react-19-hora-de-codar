@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.claro {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+.escuro {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

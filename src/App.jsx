@@ -2,6 +2,8 @@ import "./App.css";
 import ParentComponent from "./components/ParentComponent";
 import PostsItems from "./components/PostItems";
 import UserForm from "./components/UserForm";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import ThemeButton from "./components/ThemeButton";
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
 
       <h3>4. use para carregamento de dados</h3>
       <PostsItems />
+
+      <h3>5. Contextos</h3>
+      <ThemeProvider>
+        <ThemeButton />
+      </ThemeProvider>
     </>
   );
 }
