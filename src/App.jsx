@@ -4,6 +4,7 @@ import PostsItems from "./components/PostItems";
 import UserForm from "./components/UserForm";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ThemeButton from "./components/ThemeButton";
+import FormStatus from "./components/FormStatus";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       <ThemeProvider>
         <ThemeButton />
       </ThemeProvider>
+
+      <h3>6. useFormStatus para status de envio de um formulário</h3>
+      <FormStatus />
     </>
   );
 }
