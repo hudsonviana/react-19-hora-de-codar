@@ -5,6 +5,7 @@ import UserForm from "./components/UserForm";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ThemeButton from "./components/ThemeButton";
 import FormStatus from "./components/FormStatus";
+import FormState from "./components/FormState";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
 
       <h3>6. useFormStatus para status de envio de um formulário</h3>
       <FormStatus />
+
+      <h3>7. useFormState atualização baseada em resposta do usuário</h3>
+      <FormState />
     </>
   );
 }
