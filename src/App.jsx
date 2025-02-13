@@ -6,6 +6,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import ThemeButton from "./components/ThemeButton";
 import FormStatus from "./components/FormStatus";
 import FormState from "./components/FormState";
+import MessageApp from "./components/MessageApp";
 
 function App() {
   return (
@@ -30,8 +31,11 @@ function App() {
       <h3>6. useFormStatus para status de envio de um formulário</h3>
       <FormStatus />
 
-      <h3>7. useFormState atualização baseada em resposta do usuário</h3>
+      <h3>7. useActionState atualização baseada em resposta do usuário</h3>
       <FormState />
+
+      <h3>8. useOptmistic serve para melhorar a respost para o usuário</h3>
+      <MessageApp />
     </>
   );
 }

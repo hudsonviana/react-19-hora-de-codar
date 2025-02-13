@@ -15,7 +15,6 @@ function FormState() {
   }
 
   const [message, formAction, isPending] = useActionState(userValidate, null);
-  console.log(isPending);
 
   return (
     <form action={formAction}>
